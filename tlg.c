@@ -1,6 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <locale.h>
 
 int main() {
-	printf("\t Vá pá casa do kr4 \n");
+	setlocale(LC_ALL, "Portuguese");
+	printf(" segundo o filosofó Piton: \"Zé pequeno eo Krl\" \n");
+	printf("   ");
 	return 0;
 }
